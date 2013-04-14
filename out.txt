@@ -1,0 +1,180 @@
+Total #case       = 881191
+Total #control    = 886857
+Total #population = 1768048
+
+Grid map origin  = (-160, 70)
+Grid cell width  = 1
+Grid cell height = 1
+#Row = 90
+#Col = 200
+
+Probability model          = Bernoulli
+Cluster type               = Under dense
+Min #POI in one grid cell  = 1
+Monte Carlo simulation     = 19
+
+CPU time cost                     =  41.656s
+Total #clusters identified        =  5
+Significant clusters with p-value <= 0.05: 
+================= Cluster [0] =================
+p-value        = 0.05
+Log likelihood = 46.6653
+#Case          = 3451
+#Control       = 4325
+#Population    = 7776
+Marked grids' upper left corner points: 
+-59	58
+-58	58
+-57	58
+-60	57
+-59	57
+-58	57
+-57	57
+-60	56
+-59	56
+-58	56
+-57	56
+================= Cluster [1] =================
+p-value        = 0.05
+Log likelihood = 61.4686
+#Case          = 4292
+#Control       = 5411
+#Population    = 9703
+Marked grids' upper left corner points: 
+-55	49
+-54	49
+-55	48
+-54	47
+-52	47
+-55	46
+-54	46
+-53	46
+-52	46
+-53	45
+-52	45
+-55	44
+-54	44
+-52	44
+-55	43
+-52	43
+-55	42
+-52	42
+-53	41
+-52	41
+-54	40
+-53	40
+-52	40
+-55	39
+-54	39
+-53	39
+-52	39
+-55	38
+-54	38
+-53	38
+-52	38
+================= Cluster [2] =================
+p-value        = 0.05
+Log likelihood = 61.2552
+#Case          = 4308
+#Control       = 5427
+#Population    = 9735
+Marked grids' upper left corner points: 
+-52	35
+-51	35
+-50	35
+-48	35
+-52	34
+-51	34
+-50	34
+-49	34
+-52	33
+-51	33
+-50	33
+-49	33
+-52	32
+-50	32
+-48	32
+-52	31
+-50	31
+-49	31
+-48	31
+================= Cluster [3] =================
+p-value        = 0.05
+Log likelihood = 117.957
+#Case          = 8424
+#Control       = 10589
+#Population    = 19013
+Marked grids' upper left corner points: 
+-60	37
+-59	37
+-60	36
+-60	35
+-57	35
+-60	34
+-58	34
+-56	34
+-60	33
+-59	33
+-57	33
+-56	33
+-60	32
+-59	32
+-58	32
+-57	32
+-56	32
+-60	31
+-59	31
+-58	31
+-57	31
+-56	31
+-58	30
+-57	30
+-56	30
+-60	29
+-58	29
+-57	29
+-56	29
+-60	28
+-59	28
+-58	28
+-57	28
+-60	27
+-58	27
+-57	27
+-56	27
+-60	26
+-56	26
+-60	25
+-59	25
+-57	25
+-56	25
+-59	24
+-58	24
+-59	23
+-57	23
+-56	23
+-60	22
+-59	22
+-57	22
+-60	21
+-59	21
+-58	21
+-57	21
+-56	21
+-59	20
+-58	20
+-57	20
+-56	20
+-60	19
+-59	19
+-58	19
+-57	19
+-56	19
+-60	18
+-59	18
+-58	18
+-57	18
+-56	18
+
+
+4 significant clusters in all.

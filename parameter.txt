@@ -1,0 +1,38 @@
+# Input parameter file for GridScan. 
+# Comments start with '#' or '%' until end of line.
+
+
+### Numbers of rows and columns of grid matrix
+gridMatrixRowNum	90
+gridMatrixColNum	200
+
+### Upper-left corner of grid matrix
+originPointX	-160.0		# x value for 2D data, or longitude value for lat/long data
+originPointY	70.0		# y value for 2D data, or latitude value for lat/long data
+
+### Cell size
+cellXWidth	1		# cell width along x (or longitude) dimension
+cellYHeight	1		# cell height along y (or latitude) dimension
+
+### Probabilistic model
+model		BERNOULLI	# BERNOULLI or POISSON
+
+### Type of cluster detection
+clusterType	UNDER_DENSE	# OVER_DENSE or UNDER_DENSE
+
+### Number of Monte Carlo simulation to determin p-value
+### Must be unsigned int value
+K 		19	# 9 for p-value precision 0.1, 19 for 0.05, 99 for 0.01, 999 for 0.001
+			# to guarantee sufficient p-value precision, K needs to be sufficiently large
+
+### Minimum Points-of-Interest (POI) threshold for growing a cell
+### Note: Must be unsigned int value
+minPOI		1	# default 1, greater value may lead to more conservative cluster growing
+
+### Significance level threshold
+theta		0.05	# only clusters with p-value <= theta will be detected
+			# note that K will affect the precision of p-value
+
+### Random generator seed for Monte Carlo simulation
+seed 		0	# any negative int value (e.g., -1) seeds the random generator with system time
+			# any unsigned int value directly seeds the random generator
