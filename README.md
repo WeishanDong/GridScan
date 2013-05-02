@@ -13,7 +13,7 @@ How to Use
 
 The code was written using VC2010, so proper VC redistributable package is needed to be installed first. Then, you can type the following command on windows console to run the program:
 
->GridScan parameter.txt case.csv ctrl.csv out.txt
+C:\>GridScan parameter.txt case.csv ctrl.csv out.txt
 
 Four arguments are needed sequentially: 1) parameter setting file path, 2) case data file path, 3) control data file path, and 4) output file path. Examples of these files are provided together with the program. A simple matlab code example of visualizing the data and the cluster detection results is also provided.
 
